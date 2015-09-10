@@ -1,0 +1,64 @@
+{
+  "FlightStatusResource": {
+    "Flights": {
+      "Flight": {
+        "Departure": {
+          "AirportCode": "FRA",
+          "ScheduledTimeLocal": { "DateTime": "2015-03-05T10:50" },
+          "ScheduledTimeUTC": { "DateTime": "2015-03-05T09:50Z" },
+          "ActualTimeLocal": { "DateTime": "2015-03-05T11:06" },
+          "ActualTimeUTC": { "DateTime": "2015-03-05T10:06Z" },
+          "TimeStatus": {
+            "Code": "DL",
+            "Definition": "Flight Delayed"
+          },
+          "Terminal": {
+            "Name": "1",
+            "Gate": "Z50"
+          }
+        },
+        "Arrival": {
+          "AirportCode": "JFK",
+          "ScheduledTimeLocal": { "DateTime": "2015-03-05T13:45" },
+          "ScheduledTimeUTC": { "DateTime": "2015-03-05T18:45Z" },
+          "ActualTimeLocal": { "DateTime": "2015-03-05T16:34" },
+          "ActualTimeUTC": { "DateTime": "2015-03-05T21:34Z" },
+          "TimeStatus": {
+            "Code": "DL",
+            "Definition": "Flight Delayed"
+          },
+          "Terminal": {
+            "Name": "C",
+            "Gate": "002"
+          }
+        },
+        "MarketingCarrier": {
+          "AirlineID": "LH",
+          "FlightNumber": "400"
+        },
+        "OperatingCarrier": {
+          "AirlineID": "LH",
+          "FlightNumber": "400"
+        },
+        "Equipment": { "AircraftCode": "34E" },
+        "FlightStatus": {
+          "Code": "LD",
+          "Definition": "Flight Landed"
+        }
+      }
+    },
+    "Meta": {
+      "-Version": "1.0.0",
+      "Link": [
+        {
+          "-Href": "https://api-test.lufthansa.com/v1/operations/flightstatus/LH400/2015-03-05",
+          "-Rel": "self"
+        },
+        {
+          "-Href": "https://api-test.lufthansa.com/v1/references/airports/{airportCode}",
+          "-Rel": "related"
+        }
+      ]
+    }
+  }
+}

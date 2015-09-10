@@ -1,0 +1,290 @@
+/* html5doctor.com Reset v1.6.1 - http://cssreset.com */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}ins{background-color:#ff9;color:#000;text-decoration:none}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}input,select{vertical-align:middle}
+
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'staticregular';
+    src: url('fonts/static-webfont.eot');
+    src: url('fonts/static-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/static-webfont.woff2') format('woff2'),
+         url('fonts/static-webfont.woff') format('woff'),
+         url('fonts/static-webfont.ttf') format('truetype'),
+         url('fonts/static-webfont.svg#staticregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html.image { 
+  background: url(../img/homepage_bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.content {
+    width: 880px;
+    margin: 20px auto;
+    color: #333333;
+    min-height: 500px;
+}
+
+.center {
+   width: 500px;
+   height: 420px;
+   position: absolute;
+   left: 50%;
+   top: 50%; 
+   margin-left: -250px;
+   margin-top: -210px;
+    background: rgba(9,9,9,0.6);
+    border-radius: 3px;
+    padding: 25px;
+    color: #fff;
+    border-top: 3px solid #f6b828;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+span.yellow {
+    color: #f6b828;
+}
+
+.wrapper {
+    color: #fff;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    background: whitesmoke;
+}
+
+h1 {
+    font-family: 'staticregular', sans-serif;
+    text-align: center;
+    font-size: 36px;
+    line-height: 40px;
+    color: #f6b828;
+    margin-bottom: 15px;
+}
+
+.basic-grey h1>span {
+    display: block;
+    font-size: 11px;
+}
+label {
+    float: left;
+    width: 27%;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+input {
+    border: 1px solid #DADADA;
+    color: #888;
+    height: 30px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 70%;
+    font-size: 12px;
+    line-height:15px;
+    box-shadow: inset 0px 1px 4px #ECECEC;
+    -moz-box-shadow: inset 0px 1px 4px #ECECEC;
+    -webkit-box-shadow: inset 0px 1px 4px #ECECEC;
+}
+
+.button {
+    background: #3498db;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #FFF;
+    border-radius: 3px;
+    text-shadow: 1px 1px 1px #9E3F3F;
+    cursor: pointer;
+    float: right;
+    margin-right: 14px;
+    margin-top: 10px;
+}
+.button:hover {
+    background: #2980b9;
+}
+
+p.border {
+    border-bottom: 1px solid rgba(255,255,255,0.4);
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+html, body, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.day-two header {
+    background: url(../img/day-one.jpg) center center fixed;
+    background-size: cover;
+}
+
+.day-three header {
+    background: url(http://travelguide.lufthansa.com/lh/uploads/2014/06/Berlin_aufmacher_ubahn-1280x480.jpg) center center fixed;
+    background-size: cover;
+}
+
+.day-one header {
+    background: url(http://travelguide.lufthansa.com/lh/uploads/2014/06/Alpenpanorama_muenchen-1280x480.jpg) center center fixed;
+    background-size: cover;
+}
+
+html.image { 
+  background: url(../img/homepage_bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.content {
+    width: 880px;
+    margin: 20px auto;
+    color: #333333;
+}
+
+.center {
+   width: 500px;
+   height: 420px;
+   position: absolute;
+   left: 50%;
+   top: 50%; 
+   margin-left: -250px;
+   margin-top: -210px;
+    background: rgba(9,9,9,0.6);
+    border-radius: 3px;
+    padding: 25px;
+    color: #fff;
+    border-top: 3px solid #f6b828;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+span.yellow {
+    color: #f6b828;
+}
+
+.wrapper {
+    color: #fff;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    font-family: 'staticregular', sans-serif;
+    text-align: center;
+    font-size: 36px;
+    line-height: 40px;
+    color: #f6b828;
+    margin-bottom: 15px;
+}
+
+.basic-grey h1>span {
+    display: block;
+    font-size: 11px;
+}
+label {
+    float: left;
+    width: 27%;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+input {
+    border: 1px solid #DADADA;
+    color: #888;
+    height: 30px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 70%;
+    font-size: 12px;
+    line-height:15px;
+    box-shadow: inset 0px 1px 4px #ECECEC;
+    -moz-box-shadow: inset 0px 1px 4px #ECECEC;
+    -webkit-box-shadow: inset 0px 1px 4px #ECECEC;
+}
+
+.button {
+    background: #3498db;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #FFF;
+    border-radius: 3px;
+    text-shadow: 1px 1px 1px #9E3F3F;
+    cursor: pointer;
+    float: right;
+    margin-right: 14px;
+    margin-top: 10px;
+}
+.button:hover {
+    background: #2980b9;
+}
+
+p.border {
+    border-bottom: 1px solid rgba(255,255,255,0.4);
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+html, body, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.my-input {
+    border-bottom: 1px solid #f6b828;
+    padding-bottom: 40px;
+}
+
+h2 {
+    height: 150px;
+    background: rgba(9, 9, 9, 0.6);
+    display: inline-block;
+    padding-top: 35px;
+    border-radius: 100px;
+    width: 150px;
+    color: #f6b828;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: normal;
+    font-family: 'staticregular';
+}
+
+.content .button {
+    float: none;
+    display: inline-block;
+width: 200px;
+text-align: center;
+}
+
+.content input {
+    margin-top: 12px;
+}
+
+.content p {
+    line-height: 24px;
+    margin: 10px 0;
+}
+
+.content img {
+    max-height: 300px;
+}
