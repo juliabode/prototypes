@@ -1,2 +1,4 @@
+bin/config.php
+#bin/twitter-cache
 .DS_Store
 css/.DS_Store

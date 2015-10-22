@@ -1,37 +1,62 @@
 <!DOCTYPE html>
-<html class="image">
+<html>
 <head>
     <meta charset="utf-8">
-    <title>Travel Diary</title>
-    <link href="css/style_homepage.css" rel="stylesheet">
-    <link href="css/jquery-ui.min.css" rel="stylesheet">
-    <link href="css/jquery-ui.theme.min.css" rel="stylesheet">
+    <title>Twitter Bacon</title>
+    <link href="css/style.css" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='//fonts.googleapis.com/css?family=Raleway:400,200' rel='stylesheet' type='text/css'>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="js/jquery-ui.min.js"></script>
     <script src="js/script.js"></script>
 </head>
 <body>
 
-<div class="center">
-    <h1>Start your journey right here:</h1>
-    <form action="#">
-        <p class="border">From:</p>
-        <label for="flightnumber-from">Flightnumber</label>
-        <input id="flightnumber-from" type="text" placeholder="LH2055" value="LH2055"><br>
-        <label for="date-from">Date</label>
-        <input id="date-from" type="text" placeholder="2014-12-14" value="2014-12-14">
-        <p class="border">To:</p>
-        <label for="flightnumber-to">Flightnumber</label>
-        <input id="flightnumber-to" type="text" placeholder="LH2054" value="LH2054"><br>
-        <label for="date-to">Date</label>
-        <input id="date-to" type="text" placeholder="2014-12-16" value="2014-12-16">
-    </form>
-    <a class="button get_lhs">Start your diary!</a>
-</div>
+<div class="content">
 
-<div class="wrapper column"></div>
+    <aside class="sidebar column">
+        <header id="masthead">
+        <h1><a href="/test/index.html" title="Home"></a></h1>
+         <bacon><a href="/test/index.html" title="Home"></a></bacon>       
+
+            <descr>Fighting information overload: Our application serves you the most delicious bacon bits from your twitter timeline! <br><br>
+              Automatically extracting, tagging and categorizing articles and any content from every link posted by your fellow friends on Twitter according to semantic criteria!
+
+            </descr>
+                  <a class="button get-twitter awesome">Refresh your Bacon</a>
+                  <a class="button get-beacon awesome">Check iBeacon</a>
+
+
+            <filter>Category filter:</filter>
+            <div class="item">
+              <input id="box1" type="checkbox" checked/>
+              <label for="box1" class="politik">Politik</label><br>
+
+              <input id="box2" type="checkbox" checked/>
+              <label for="box2" class="wirtschaft">Wirtschaft</label><br>
+
+              <input id="box3" type="checkbox" checked/>
+              <label for="box3" class="kultur">Kultur</label><br>
+
+                <input id="box4" type="checkbox" checked/>
+              <label for="box4" class="reisen">Reisen</label><br>
+
+                <input id="box5" type="checkbox" checked/>
+              <label for="box5" class="wissenschaft">Wissenschaft</label><br>
+
+                <input id="box6" type="checkbox" checked/>
+              <label for="box6" class="internet">Internet</label><br>
+
+                <input id="box7" type="checkbox" checked/>
+              <label for="box7" class="technik">Technik</label><br>
+            </div>
+
+
+
+            </header>
+    </aside>
+
+    <div class="wrapper column"></div>
+</div>
 
 </body>
 </html>

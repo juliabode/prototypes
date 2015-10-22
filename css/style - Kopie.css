@@ -1,0 +1,206 @@
+/* html5doctor.com Reset v1.6.1 - http://cssreset.com */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}ins{background-color:#ff9;color:#000;text-decoration:none}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}input,select{vertical-align:middle}
+
+
+html, body {
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
+}
+
+html {
+  
+}
+
+
+h1 {
+  background: url(../img/bacon.png) no-repeat;
+height: 40px;
+width: 230px;
+background-size: contain;
+margin: 20px;
+margin-left: 0px;
+}
+bacon {
+  background: url(../img/bacon2.png) no-repeat;
+height: 40px;
+width: 230px;
+background-size: contain;
+margin: 20px;
+margin-left: 0px;
+display: block;
+height: 80px;
+margin-top: -20px;
+}
+
+
+body {
+  font-size: 13px;
+  line-height: 140%;
+  margin: 0;
+}
+
+
+aside {
+float: left;
+position: fixed;
+height: 100%;
+margin-bottom: 40px;
+box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
+background: rgba(255,255,255,0.3)  center bottom no-repeat;
+z-index: 40;
+width: 350px;
+padding-left: 40px;
+}
+
+.awesome {
+
+padding: 5px 10px 6px;
+margin-right: 10px;
+line-height: 1;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-box-shadow: 0 1px 3px #999;
+-webkit-box-shadow: 0 1px 3px #999;
+text-shadow: 0 -1px 1px #222;
+border: none;
+border-bottom: 1px solid #222;
+cursor: pointer;
+-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+display: inline-block;
+margin-top: 30px;
+
+}
+
+
+.wrapper {
+float: left;
+padding-left: 400px;
+min-height: 400px;
+margin: 40px 0;
+}
+
+article {
+overflow: hidden;
+position: relative;
+width: 750px;
+margin-bottom: 60px;
+-webkit-box-shadow: 0 0 3px #3c3c3c;
+box-shadow: 0 0 3px #3c3c3c;
+background: rgba(255,255,255,0.45);
+padding: 20px;
+}
+
+
+descr {
+padding-right: 30px;
+display: block;
+font-size: 1.17em;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+font-weight: bold;
+}
+
+filter {
+display: block;
+font-size: 1.3emem;
+-webkit-margin-before: 0.83em;
+-webkit-margin-after: 0.83em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+font-weight: bold;
+margin: 50px auto 20px;
+font-size: 19px;
+
+}
+
+footer {
+padding-right: 30px;
+display: block;
+font-size: 1.17em;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+font-weight: bold;
+}
+
+tag {
+padding-right: 30px;
+display: block;
+font-size: 1.17em;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+
+}
+
+/*** basic styles ***/
+
+
+label {
+    font-size: 1.17em; 
+}
+
+.politik { 
+  color: #0000F9;
+}
+
+.wirtschaft { 
+  color: #373737;
+}
+.kultur { 
+  color: #FF9407;
+}
+.reisen { 
+  color: #24A80F;
+}
+.wissenschaft { 
+  color: #B206EC;
+}
+.internet { 
+  color:#FD021F;
+}
+.technik { 
+  color: #FD02CA;
+}
+
+.item {
+  width: 175px; 
+  margin-left: 20px;
+}
+
+/*** custom checkboxes ***/
+
+input[type=checkbox] { display:none; } /* to hide the checkbox itself */
+input[type=checkbox] + label:before {
+  font-family: FontAwesome;
+  display: inline-block;
+}
+
+input[type=checkbox] + label:before { content: "\f096"; } /* unchecked icon */
+input[type=checkbox] + label:before { letter-spacing: 10px; } /* space between checkbox and label */
+
+input[type=checkbox]:checked + label:before { content: "\f046"; } /* checked icon */
+input[type=checkbox]:checked + label:before { letter-spacing: 5px; } /* allow space for check mark */
+
+
+.grid-pad {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 0px;
+}
+.grid {
+    width: 100%;
+    max-width: 1140px;
+    min-width: 755px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+*, *:after, *:before {
+    box-sizing: border-box;
+}
